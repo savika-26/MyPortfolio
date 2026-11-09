@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: lightblue;
+    text-align: center;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: lightblue;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    color: yellow;
+}
